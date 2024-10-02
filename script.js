@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', displayRecipes);
 const recipes = [
     {
         title: "Chocolate Cake",
@@ -26,6 +25,7 @@ function displayRecipes() {
         `;
         recipeList.appendChild(recipeCard);
     });
+   
 }
 
-
+document.addEventListener('DOMContentLoaded', displayRecipes);
